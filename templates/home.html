@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block start %}
+  <div class="Login">
+    <form action="{{url_for('predict')}}" method="post">
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+      <input type="text" name="CRIM" placeholder="CRIM" required="required"></form><br>
+
+
+       
+      <button type="submit" class="btn btn-primary">predict</button>
+    </form>
+     
+  </div>
+  {{prediction_text}}
+{% endblock %}
+ 
